@@ -102,6 +102,7 @@
   flex: 1;
   display: flex;
 }
+
 .cv-container .top-section .top-right .social-media .facebook,
 .linkedin,
 .github {
@@ -110,4 +111,9 @@
   display: flex;
   justify-content: start;
   align-items: center;
+}
+.cv-container .top-section .top-right .social-media .facebook:hover,
+.linkedin:hover,
+.github:hover {
+  color: red;
 }

@@ -10,6 +10,7 @@ body {
   background: linear-gradient(135deg, #8b5e3c, #c19a6b, #8b5e3c);
 }
 
+/* main container style */
 .cv-container {
   margin: 30px;
   display: flex;
@@ -23,6 +24,7 @@ body {
   background-color: white;
 }
 
+/* top section style */
 .cv-container .top-section {
   display: flex;
   position: relative;
@@ -30,6 +32,7 @@ body {
   background-color: rgb(227, 222, 222);
 }
 
+/* bottom section style */
 .cv-container .bottom-section {
   flex: 2;
   display: flex;
