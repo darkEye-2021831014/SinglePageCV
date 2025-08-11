@@ -1,0 +1,113 @@
+.cv-container .top-section .top-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.cv-container .top-section .top-left .profile-picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  object-fit: cover;
+  object-position: top;
+  border: 3px solid white;
+  z-index: 5;
+}
+
+.cv-container .top-section .top-right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+  position: relative;
+}
+
+.cv-container .top-section .top-right .work-role {
+  flex: 1;
+  color: crimson;
+  font-weight: bold;
+  align-content: center;
+  border-bottom: 2px solid red;
+  font-size: 28px;
+}
+.cv-container .top-section .top-right .contact-info {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  flex: 3;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.cv-container .top-section .top-right .contact-info .name {
+  z-index: 5;
+  align-content: center;
+  flex: 1;
+  font-weight: bold;
+  font-size: 28px;
+}
+.cv-container .top-section .top-right .contact-info .contact {
+  z-index: 5;
+  flex: 2;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.cv-container .top-section .top-right .contact-info .contact .email {
+  flex: 1;
+  display: flex;
+}
+.cv-container .top-section .top-right .email-icon,
+.phone-icon,
+.location-icon,
+.facebook-icon,
+.linkedin-icon,
+.github-icon {
+  height: 24px;
+  width: 24px;
+}
+.cv-container .top-section .top-right .mail,
+.phone-number,
+.address,
+.facebook-handle,
+.linkedin-handle,
+.github-handle {
+  height: 24px;
+  align-content: center;
+  padding-left: 5px;
+}
+.cv-container .top-section .top-right .contact-info .contact .phone {
+  flex: 1;
+  display: flex;
+}
+
+.cv-container .top-section .top-right .contact-info .contact .location {
+  flex: 1;
+  display: flex;
+}
+
+.cv-container .top-section .top-right .contact-info .contact-details {
+  position: absolute;
+  top: 3%;
+  bottom: 0;
+  right: 0;
+  left: -35%;
+  background-color: rgb(53, 48, 48);
+  color: white;
+}
+
+.cv-container .top-section .top-right .social-media {
+  flex: 1;
+  display: flex;
+}
+.cv-container .top-section .top-right .social-media .facebook,
+.linkedin,
+.github {
+  flex: 1;
+  align-content: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}

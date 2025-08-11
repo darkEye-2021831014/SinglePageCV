@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #8b5e3c, #c19a6b, #8b5e3c);
+}
+
+.cv-container {
+  margin: 30px;
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 700px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  display: flex;
+  padding: 5px;
+  flex-direction: column;
+  background-color: white;
+}
+
+.cv-container .top-section {
+  display: flex;
+  position: relative;
+  flex: 1;
+  background-color: rgb(227, 222, 222);
+}
+
+.cv-container .bottom-section {
+  flex: 2;
+  display: flex;
+}
